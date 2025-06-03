@@ -3,7 +3,7 @@ package com.unincor.sistema.bancario.admin.model.domain;
 
 public class Agencia {
     
-    private long idAgencia;
+    private Long idAgencia;
     private String codigoAgencia;
     private String cidade;
     private String uf;
@@ -14,7 +14,7 @@ public class Agencia {
     public Agencia() {
     }
 
-    public Agencia(long idAgencia, String codigoAgencia, String cidade, String uf, String logradouro, String numero, String cep) {
+    public Agencia(Long idAgencia, String codigoAgencia, String cidade, String uf, String logradouro, String numero, String cep) {
         this.idAgencia = idAgencia;
         this.codigoAgencia = codigoAgencia;
         this.cidade = cidade;

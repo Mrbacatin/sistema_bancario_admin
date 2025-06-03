@@ -65,11 +65,11 @@ public abstract class Pessoa {
         this.telefone = telefone;
     }
 
-    public String getSenha() {
+    public String getSenhaHash() {
         return senhaHash;
     }
 
-    public void setSenha(String senha) {
+    public void setSenhaHash(String senha) {
         this.senhaHash = senha;
     }
     
